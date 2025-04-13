@@ -9,7 +9,7 @@ public class MyMinHeap <T extends Comparable<T>>{
     private void heapifyUp(int index) {
         int parentIndex = 0;
         T temp;
-        
+
         while(index > 0){
             parentIndex = (index -1)/2;
         }
@@ -17,7 +17,7 @@ public class MyMinHeap <T extends Comparable<T>>{
             temp = heap.get(index);
             heap.set(index, heap.get(parentIndex));
             heap.set(parentIndex, temp);
-            
+
             index = parentIndex;
         }
     }
