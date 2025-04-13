@@ -24,10 +24,10 @@ public class Main {
         // MyStack
         MyStack<Integer> stack = new MyStack<>();
         stack.push(1);
-        stack.push(6);
+        stack.push(9);
         stack.push(8);
         System.out.println("Stack pop: " + stack.pop());   // 8
-        System.out.println("Stack peek: " + stack.peek()); // 6
+        System.out.println("Stack peek: " + stack.peek()); // 9
         System.out.println("Stack size: " + stack.size()); // 2
 
 
