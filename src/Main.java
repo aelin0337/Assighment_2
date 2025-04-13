@@ -24,27 +24,27 @@ public class Main {
         // MyStack
         MyStack<Integer> stack = new MyStack<>();
         stack.push(1);
-        stack.push(2);
-        stack.push(3);
-        System.out.println("Stack pop: " + stack.pop());   // 3
-        System.out.println("Stack peek: " + stack.peek()); // 2
+        stack.push(6);
+        stack.push(8);
+        System.out.println("Stack pop: " + stack.pop());   // 8
+        System.out.println("Stack peek: " + stack.peek()); // 6
         System.out.println("Stack size: " + stack.size()); // 2
 
 
         // MyQueue
         MyQueue<Integer> queue = new MyQueue<>();
-        queue.enqueue(10);
-        queue.enqueue(20);
-        System.out.println("Queue dequeue: " + queue.dequeue()); // 10
-        System.out.println("Queue peek: " + queue.peek());       // 20
+        queue.enqueue(30);
+        queue.enqueue(40);
+        System.out.println("Queue dequeue: " + queue.dequeue()); // 30
+        System.out.println("Queue peek: " + queue.peek());       // 40
         System.out.println("Queue size: " + queue.size());       // 1
 
 
         // MyMinHeap
         MyMinHeap<Integer> heap = new MyMinHeap<>();
-        heap.add(5);
+        heap.add(33);
         heap.add(2);
-        heap.add(8);
+        heap.add(9);
         heap.add(1);
         System.out.println("Min in heap: " + heap.peek());         // 1
         System.out.println("Remove min: " + heap.remove());        // 1
